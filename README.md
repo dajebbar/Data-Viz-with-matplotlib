@@ -27,4 +27,5 @@ ax.plot(cubes)
 ```
 
 The function plt.show() opens Matplotlib’s viewer and displays the plot:
+
 ![cubes plot](plots/cube_plot.png)
