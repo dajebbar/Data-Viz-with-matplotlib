@@ -85,3 +85,17 @@ plt.style.use('fivethirtyeight')
 ```
 
 ![plot style](plots/plot_style.png)
+
+# Plotting a Series of Points with scatter()
+
+To plot a series of points, we can pass scatter() separate lists of values:
+
+```python
+values = [1, 2, 3, 4, 5]
+cubes = [1, 8, 27, 64, 125]
+ax.scatter(values, cubes, s=100)
+```
+
+The **s** argument set the size of the dots used to draw the graph:
+
+![scatter plot](plots/scatter.png)
