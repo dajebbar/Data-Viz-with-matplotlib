@@ -67,3 +67,21 @@ ax.plot(values, cubes, linewidth=3)
 ```
 
 ![plot correction](plots/plot_corrected.png)
+
+# Using Built-in Styles
+
+Matplotlib has a number of predefined styles available that will make visualizations appealing.
+To see the styles available, run the following lines in a terminal session:
+
+```python
+import matplotlib.pyplot as plt
+plt.style.available
+```
+
+To use any styles, add one line of code before starting to generate the plot:
+
+```python
+plt.style.use('fivethirtyeight')
+```
+
+![plot style](plots/plot_style.png)
