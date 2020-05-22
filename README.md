@@ -128,4 +128,7 @@ ax.scatter(values, cubes, c=cubes, cmap=plt.cm.Blues, s=10)
 
 You can see all the colormaps available in pyplot at [matplotlib web site][1]
 
+Code of this section can be find [Here][2].
+
 [1]: https://matplotlib.org/gallery/color/colormap_reference.html#sphx-glr-gallery-color-colormap-reference-py
+[2]: mpl_cube.ipynb
