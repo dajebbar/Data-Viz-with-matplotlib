@@ -99,3 +99,33 @@ ax.scatter(values, cubes, s=100)
 The **s** argument set the size of the dots used to draw the graph:
 
 ![scatter plot](plots/scatter.png)
+
+# Defining Custom Colors
+
+To change the color of the points, pass c to scatter() with the name of a color to use in quotation marks:
+
+```python
+
+ax.scatter(values, cubes, c='green', s=100)
+```
+
+![scatter plot color](plots/plot_color.png)
+
+# Using a Colormap
+
+A colormap is a series of colors in a gradient that moves from a starting to an ending color. You use colormaps in visualizations to emphasize a pattern in the data.
+
+```python
+from math import pow
+
+values = range(1, 1001)
+cubes = [pow(x, 3) for x in values]
+
+ax.scatter(values, cubes, c=cubes, cmap=plt.cm.Blues, s=10)
+```
+
+![colormap](plots/colormap.png)
+
+You can see all the colormaps available in pyplot at [matplotlib web site][1]
+
+[1]: https://matplotlib.org/gallery/color/colormap_reference.html#sphx-glr-gallery-color-colormap-reference-py
