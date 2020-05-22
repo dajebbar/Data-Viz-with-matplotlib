@@ -130,5 +130,22 @@ You can see all the colormaps available in pyplot at [matplotlib web site][1]
 
 Code of this section can be find [Here][2].
 
+# Random Walks
+
+A [random walk ][3] is a mathematical object, known as a stochastic or random process, that describes a path that consists of a succession of random steps on some mathematical space such as the integers.
+
+To create a random walk, we create a [RandomWalk][4] class, which will make random decisions about which direction the walk should take. The class needs three attributes: one variable to store the number of points in the walk and two lists to store the x­ and y­coordinate values of each point in the walk.
+
+### Plotting the Random Walk
+
+The code to plot all the points in the walk gives this result:
+
+![random walk](plots/randomwalk.png)
+
+Code of this section can be find [Here][5].
+
 [1]: https://matplotlib.org/gallery/color/colormap_reference.html#sphx-glr-gallery-color-colormap-reference-py
 [2]: mpl_cube.ipynb
+[3]: https://en.wikipedia.org/wiki/Random_walk
+[4]: random_class.py
+[5]: random_walk.ipynb
