@@ -55,3 +55,15 @@ The set_title() method sets a title for the chart.
 The set_xlabel() and set_ylabel() methods allow you to set a title for each of the axes, and the method tick_params() styles the tick marks
 
 ![label plot](plots/cube_label.png)
+
+## Correcting the Plot
+
+we see that the data is not plot­ted correctly,We can override the default behavior by giving plot() the input and output values:
+
+```python
+values = [1, 2, 3, 4, 5]
+cubes = [1, 8, 27, 64, 125]
+ax.plot(values, cubes, linewidth=3)
+```
+
+![plot correction](plots/plot_corrected.png)
