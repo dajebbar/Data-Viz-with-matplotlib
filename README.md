@@ -54,4 +54,4 @@ ax.tick_params(axis='both', labelsize=14)
 The set_title() method sets a title for the chart.
 The set_xlabel() and set_ylabel() methods allow you to set a title for each of the axes, and the method tick_params() styles the tick marks
 
-![cubes plot](plots/cube_label.png)
+![label plot](plots/cube_label.png)
