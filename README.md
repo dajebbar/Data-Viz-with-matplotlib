@@ -29,3 +29,29 @@ ax.plot(cubes)
 The function plt.show() opens Matplotlib’s viewer and displays the plot:
 
 ![cubes plot](plots/cube_plot.png)
+
+## Changing the Label Type and Line Thickness
+
+We use a few of the available customizations to improve plot’s readability:
+
+```python
+ax.plot(cubes, linewidth=3)
+```
+
+The linewidth parameter controls the thickness of the line that plot() generates.
+
+```python
+# Set chart title and label axes.
+ax.set_title("Cube Numbers", fontsize=24)
+ax.set_xlabel("Value", fontsize=14)
+ax.set_ylabel("Cube of Value", fontsize=14)
+
+# Set size of tick labels.
+ax.tick_params(axis='both', labelsize=14)
+
+```
+
+The set_title() method sets a title for the chart.
+The set_xlabel() and set_ylabel() methods allow you to set a title for each of the axes, and the method tick_params() styles the tick marks
+
+![cubes plot](plots/cube_label.png)
